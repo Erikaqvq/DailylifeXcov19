@@ -1,0 +1,70 @@
+
+.contentsetting {
+  background-color: rgb(208, 254, 250);
+  width: 100vw;
+  height: 100vw; /* Should be removed. Only for demonstration */
+  padding: 20px 20px;
+}
+
+.list{
+  padding: 20px 30px;
+  overflow:hidden;
+
+}
+
+.select{
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background:rgb(35, 116, 100);
+  border-radius: 24px;
+  
+}
+.largeb{
+  width: 70%;
+  padding: 20px 30px;
+}
+
+.box{
+  opacity : 0.8;
+  display:inline-block;
+  width: 33.33%;
+  float: right;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background:rgb(226, 255, 249);
+  border-radius: 24px
+}
+.box t1{
+  opacity : 1;
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  color:rgb(0, 53, 62);
+  border-radius: 24px
+}
+
+.select select{
+  padding:0 20px;
+  width:350px;
+  height:40px;
+  background: #fff;
+  background-color: rgb(239, 255, 250);
+  border-radius: 12px;
+  outline: none;
+}
+
+.table{
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.table th{
+  text-align:center;
+}
+
+.hide{
+  width: 0px;
+  height: 0px;
+}

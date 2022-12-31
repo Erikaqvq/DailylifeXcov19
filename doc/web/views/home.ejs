@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title><%= title %></title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/stylesheets/home.css">
+   <link rel="stylesheet" href="/stylesheets/style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ </head>
+
+ <body>
+    <div class="topnav">
+        <m><img src="/images/logo.png" alt="a" width = "45" height="50"></m>
+        <form action = "/login" method="get">
+        <a href="login">Log in</a>
+        </form>
+        <form action = "/signup" method="get">
+        <a href="signup">Sign up</a>
+        </form>
+        <form action = "/" method="get">
+            <a href="/">Home</a>
+        </form>
+        <form action = "/updated" method="get">
+            <a href="/updated">update</a>
+        </form>
+        <form action = "/reset" method="get">
+            <a href="/reset">Reset</a>
+        </form>
+
+        <bunnie>Bunnie Help 0.0</bunnie>
+    </div>
+    <div class = "content">
+        <div class="map">
+
+            <form action="/Dailydata" method="post">
+            <div class="form-group">
+                <label for="Country">Which Country are you in?</label>
+                <input type="text" class="form-control col-lg-9" name="Country" placeholder="Enter country">        
+            </div>
+            <div><%= msg %></div>
+            <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+                <div class = "box">
+                <t1>Country with highest average cases</t1>
+                  <ul>
+                    <% arr1.forEach((item)=>{ %>
+                      <li><information><%= item %></information></li>
+                    <% }) %> 
+                  </ul>
+                </div>
+
+                <div class = "box">
+                <t1>High Risk Countries(New cases, New deaths)</t1>
+                <ul>
+                    <% arr2.forEach((item)=>{ %>
+                      <li><information><%= item %></information></li>
+                    <% }) %> 
+                  </ul>
+                </div>
+            
+        </div>
+        
+
+    <div class="map">
+
+        <form action="/Vacdata" method="post">
+        <div class = "form-group">
+            <label for="min">Minimum</label>
+            <input type="text" class="form-control col-lg-9" id="min" aria-describedby="emailHelp" placeholder="Enter min" name="min">
+            <label for ="max">Maximum</label>
+            <input type="text" class="form-control col-lg-9" id="max" aria-describedby="emailHelp" placeholder="Enter max" name="max">
+            <button type="submit" class="btn btn-primary">filter</button>
+            </form>
+           </div>
+        <div><%= msg %></div>
+        </form>
+            <div class = "box">
+            <t1>Newest Vaccination</t1>
+              <ul>
+                <% arr3.forEach((item)=>{ %>
+                  <li><information><%= item %></information></li>
+                <% }) %> 
+              </ul>
+            </div>
+
+        
+    </div>
+</div> 
+</div>
+
+
+
+ </body>
+</html>

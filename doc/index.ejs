@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Daily Life with COVID-19</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ </head>
+
+ <body>
+   <img src="./nima.jpeg" alt="logo"></p>
+   <div class="container mt-4">
+     <div class="card">
+       <div class="card-body">
+         <h2>Input the city you want to search</h2>
+         <form action="City" method="POST">
+           <div class="form-group">
+             <label for="City">City Name</label>
+             <input type="text" class="form-control col-lg-9" id="City" aria-describedby="emailHelp" placeholder="Enter name" name="City">
+           </div>
+           <button type="submit" class="btn btn-primary">Search</button>
+         </form>
+      </div>
+    </div>
+  </div>
+
+   <div class="container mt-4">
+     <div class="card">
+       <div class="card-body">
+         <h2>Insert an Vaccine</h2>
+         <form action="Vaccination" method="POST">
+	   <div class="form-group">
+             <label for="VacId">Vaccine ID</label>
+             <input type="text" class="form-control col-lg-9" id="VacId" aria-describedby="emailHelp"
+                 placeholder="Enter the id" name="VacId">
+
+             <label for="VacName">Vaccine Name</label>
+             <input type="text" class="form-control col-lg-9" id="VacName" aria-describedby="emailHelp" placeholder="Enter vaccine name" name="VacName">
+	  
+             <label for="ProductName">Product Name</label>
+             <input type="text" class="form-control col-lg-9" id="ProductName" aria-describedby="emailHelp"
+		 placeholder="Enter the product name" name="ProductName">
+	   
+             <label for="Company">Company</label>
+             <input type="text" class="form-control col-lg-9" id="Company" aria-describedby="emailHelp"
+		 placeholder="Enter company name" name="Company">
+	    
+             <label for="AuDate">Authorized Date</label>
+             <input type="text" class="form-control col-lg-9" id="AuDate" aria-describedby="emailHelp" placeholder="Enter authorized date" name="AuDate">
+	   
+             <label for="StDate">Start Date</label>
+             <input type="text" class="form-control col-lg-9" id="StDate" aria-describedby="emailHelp" placeholder="enter start date" name="StDate">
+           
+             <label for="Source">Source</label>
+             <input type="text" class="form-control col-lg-9" id="Soucre" aria-describedby="emailHelp" placeholder="Enter source" name="Source">
+           </div>
+           <button type="submit" class="btn btn-primary">Add</button>
+         </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mt-4">
+     <div class="card">
+       <div class="card-body">
+         <h2>Update Daily Data</h2>
+         <form action="Dailydata" method="POST">
+          <div class="form-group">
+            <label for="Data_ID">Data ID</label>
+            <input type="text" class="form-control col-lg-9" id="Data_ID" aria-describedby="emailHelp" placeholder="Enter data ID" name="Data_ID">
+        
+            <label for="Date">Date</label>
+            <input type="text" class="form-control col-lg-9" id="ProductName" aria-describedby="emailHelp"
+            placeholder="format: yyyy-mm-dd hh:mm:ss" name="Date">
+         
+            <label for="New_cases">New Cases</label>
+            <input type="text" class="form-control col-lg-9" id="New_cases" aria-describedby="emailHelp" placeholder="Enter number" name="New_cases">
+     
+            <label for="Cum_cases">Cummulative Cases</label>
+            <input type="text" class="form-control col-lg-9" id="Cum_cases" aria-describedby="emailHelp" placeholder="Enter number" name="Cum_cases">
+         
+            <label for="New_deaths">New Deaths</label>
+            <input type="text" class="form-control col-lg-9" id="New_deaths" aria-describedby="emailHelp" placeholder="Enter number" name="New_deaths">
+
+            <label for="Cum_deaths">Cumulative deaths</label>
+            <input type="text" class="form-control col-lg-9" id="Cum_deaths" aria-describedby="emailHelp" placeholder="Enter number" name="Cum_deaths">
+          </div>
+          <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+     </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="card">
+       <div class="card-body">
+         <h2>Delete an Article</h2>
+         <form action="Article" method="POST">
+           <div class="form-group">
+            <label for="ArticleId">Article ID</label>
+            <input type="text" class="form-control col-lg-9" id="ArticleId" aria-describedby="emailHelp" placeholder="Enter id" name="ArticleId">
+           </div>
+           <button type="submit" class="btn btn-primary">Delete</button>
+         </form>
+      </div>
+    </div>
+  </div>
+
+<div class="container mt-4">
+    <div class="card">
+       <div class="card-body">
+         <h2>Click Button to see the 15 countries with average new cases</h2>
+         <form action="new_cases" method="POST">
+           <button type="submit" class="btn btn-primary">See</button>
+         </form>
+      </div>
+    </div>
+
+
+    <div class="card">
+       <div class="card-body">
+         <h2>See the company with number of vaccines not in a range</h2>
+         <form action="VacData" method="POST">
+	   <div class = "form-group">
+           <label for="min">Minimum</label>
+           <input type="text" class="form-control col-lg-9" id="min" aria-describedby="emailHelp" placeholder="Enter min" name="min">
+	   <label for ="max">Maximum</label>
+           <input type="text" class="form-control col-lg-9" id="max" aria-describedby="emailHelp" placeholder="Enter max" name="max">
+           <button type="submit" class="btn btn-primary">See</button>
+         </form>
+      </div>
+    </div>
+  </div>
+
+ </body>
+</html>
+
+

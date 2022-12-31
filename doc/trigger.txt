@@ -1,0 +1,70 @@
+DELIMITER $
+CREATE TRIGGER bunnie
+BEFORE UPDATE ON Dailydata FOR EACH ROW
+
+BEGIN
+    SET @Dataid = New.Data_ID;
+    IF (1500 <= New.Cum_cases or 100<= New.Cum_deaths) THEN
+        IF (New.Country NOT IN (SELECT Country
+                                                    FROM HighriskCountries)) THEN
+            INSERT INTO HighriskCountries (Country, New_cases, Cum_cases, New_deaths, Cum_deaths)
+	    SELECT  Country, New_cases, Cum_cases, New_deaths, Cum_deaths
+	    FROM Dailydata
+	    Where Data_ID = @Dataid;    
+        ELSE
+            UPDATE HighriskCountries
+            SET New_cases = 
+           (SELECT New_cases
+            FROM Dailydata
+            WHERE Data_ID = @Dataid)
+            WHERE Country = New.Country;
+            UPDATE HighriskCountries
+            SET Cum_cases = 
+           (SELECT Cum_cases
+            FROM Dailydata
+           WHERE Data_ID = @Dataid)
+           WHERE Country = New.Country;
+            UPDATE HighriskCountries
+            SET New_deaths = 
+           (SELECT New_deaths
+            FROM Dailydata
+           WHERE Data_ID = @Dataid)
+           WHERE Country = New.Country;
+            UPDATE HighriskCountries
+            SET Cum_deaths = 
+           (SELECT Cum_deaths
+            FROM Dailydata
+           WHERE Data_ID = @Dataid)
+           WHERE Country = New.Country;
+        END IF;
+    ELSE
+         IF (New.Country IN (SELECT Country
+                                                    FROM HighriskCountries)) THEN
+             UPDATE HighriskCountries
+            SET New_cases = 
+           (SELECT New_cases
+            FROM Dailydata
+            WHERE Data_ID = @Dataid)
+            WHERE Country = New.Country;
+            UPDATE HighriskCountries
+            SET Cum_cases = 
+           (SELECT Cum_cases
+            FROM Dailydata
+           WHERE Data_ID = @Dataid)
+           WHERE Country = New.Country;
+            UPDATE HighriskCountries
+            SET New_deaths = 
+           (SELECT New_deaths
+            FROM Dailydata
+           WHERE Data_ID = @Dataid)
+           WHERE Country = New.Country;
+            UPDATE HighriskCountries
+            SET Cum_deaths = 
+           (SELECT Cum_deaths
+            FROM Dailydata
+           WHERE Data_ID = @Dataid)
+           WHERE Country = New.Country;
+        END IF;
+    END IF;
+END$
+DELIMITER ;

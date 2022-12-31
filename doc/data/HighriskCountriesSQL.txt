@@ -1,0 +1,6 @@
+CREATE TABLE HighriskCountries (
+Country VARCHAR(255)PRIMARY KEY, 
+New_cases INT, 
+Cum_cases INT, 
+New_deaths INT, 
+Cum_deaths INT);

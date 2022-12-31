@@ -1,0 +1,3 @@
+routers: xx.js ==> view: xx.ejs ==> web page
+public: store resources in css, img, js
+add a new page: change in server.js

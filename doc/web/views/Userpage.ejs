@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Userpage</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/stylesheets/home.css">
+   <link rel="stylesheet" href="/stylesheets/style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ </head>
+
+ <body>
+    <div class="topnav">
+        <m><img src="/images/logo.png" alt="a" width = "45" height="50"></m>
+        <hello>Hello, <%= name %></hello>
+        <form action = "/" method="get">
+            <a href="/">Log out</a>
+        </form>
+        <form action = "/login/settings" method="post">
+          <input type = "text" name = "Username" value = <%= name %> class = "hide">
+            <button type = "submit"><a>Settings</a></button>
+        </form>
+      </form>
+        <bunnie>Bunnie Help 0.0</bunnie>
+    </div>
+
+    <div class = "content">
+  
+      <div class = "board">
+        <div class = "message">
+        </div>
+        <ul>
+          <% msg.forEach((item)=>{ %>
+            <div class = "message">
+              <message><%= item.Hintwords %></message>
+            </div>
+          <form action = "/Dailydata" method = "post">
+                <input type = "text" class = "hide" name = "Country" value = <%= item.Country %>>
+                <button type="submit" class="btn btn-primary">See Detail</button>    
+          </form>
+        <% }) %> 
+        </ul>
+        <daily></daily>
+        <daily>Daily messages</daily>
+      </div>
+
+    </div>
+    
+
+
+
+ </body>
+</html>

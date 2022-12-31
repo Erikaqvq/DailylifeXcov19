@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title><%= title %></title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/stylesheets/home.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ </head>
+ <div class="topnav">
+    <m><img src="/images/logo.png" alt="a" width = "45" height="50"></m>
+    <form action = "/login" method="get">
+    <a href="login">Log in</a>
+    </form>
+    <form action = "/signup" method="get">
+    <a href="signup">Sign up</a>
+    </form>
+    <form action = "/" method="get">
+        <a href="/">Home</a>
+    </form>
+    <bunnie>Bunnie Help 0.0</bunnie>
+</div>
+ <body>
+ <div class = "content">
+    <div class="map">
+    <form action="/Userpage" method="post">
+        <div class="form-group">
+            <label for="Username">Username</label>
+            <input type="text" class="form-control col-lg-9" name="Username" placeholder=""> 
+            <label for="Password">Password</label>
+            <input type="password" class="form-control col-lg-9" name="Password" placeholder="">      
+        </div>
+        <button type="submit" class="btn btn-primary">Log in</button>
+    </form>
+    </div>
+</div>
+
+
+ </body>
+</html>

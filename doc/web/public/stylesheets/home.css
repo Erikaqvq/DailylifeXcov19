@@ -1,0 +1,121 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0, 150, 135);
+  text-align: center;
+  height: 60px;
+  width: 100vw;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+}
+.topnav m {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.topnav bunnie {
+  float: right;
+  display: flex;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+.topnav hello {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  color: #fcfcfa;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(0, 90, 81);
+  color: #f2f2f2;
+}
+
+/* Style the content */
+.content {
+  background-color: rgb(208, 254, 250);
+  width: 100vw;
+  height: 100vw; /* Should be removed. Only for demonstration */
+  padding: 50px 50px;
+}
+.map {
+  display:table;
+  width: 90vw;
+  height: 650px;
+  text-align: left;
+  padding: 50px 100px;
+  background: url("/images/worldmap.jpg") no-repeat;
+  background-size: 100%,100%;
+  border-radius: 24px
+}
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.board {
+    overflow: hidden;
+    background-color: rgb(3, 111, 100);
+    text-align: left;
+    height: 300px;
+    padding: 10px,10px;
+    width: 90vw;
+  
+}
+  
+.board message {
+  width: 1000px;
+  height: 50px;
+  text-align: center;
+  padding: 10px 10px;
+  background:rgb(255, 252, 84);
+  color: rgb(95, 46, 0);
+  border-radius: 12px
+}
+
+.board daily {
+  float: right;
+  display: flex;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.board information {
+
+  color: #f2f2f2;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  padding:40px;
+}
+
+header h1{
+}

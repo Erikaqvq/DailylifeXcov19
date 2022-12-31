@@ -1,0 +1,57 @@
+delimiter //
+create procedure CalculateRisk(in Usern varchar(255))
+	begin
+		declare done int default 0;
+        declare rsk int default -1;
+        declare totalcase int;
+        declare deathrate float;
+        declare raiserate float;
+        declare c varchar(255);
+        declare cur cursor for select Country from Countrylist where Username = Usern;
+		declare continue handler for not found set done = 1;
+			
+        
+        open cur;
+        repeat
+            fetch cur into c;
+			set totalcase = (select sum(d.New_cases) 
+				from Dailydata d join HighriskCountries h on d.Country = h.Country
+                where d.Country = c and 7>(select count(*) from Dailydata where Dailydata.Country = c and d.Date > Date)
+				group by d.Country
+                having d.Country = c);
+		set deathrate = (select sum(d.New_deaths)/(sum(d.new_cases)+1)
+				from Dailydata d join HighriskCountries h on d.Country = h.Country
+                where d.Country = c and 7>(select count(*) from Dailydata where Dailydata.Country = d.Country and d.Date > Date)
+				group by d.Country);
+			set raiserate = (
+				select (a.s1/3 - (b.s2-a.s1)/4)/((b.s2-a.s1)/4 +1) 
+                from
+				(select sum(d.New_cases) as s1 from Dailydata d
+				where d.Country = c and 3>(select count(*) from Dailydata where Dailydata.Country = c and d.Date > Date)
+                group by d.Country) as a,
+				(select sum(d.New_cases) as s2 from Dailydata d
+				where d.Country = c and 7>(select count(*) from Dailydata where Dailydata.Country = c and d.Date > Date)
+                group by d.Country) as b
+			);
+            
+            if (totalcase > 10000) and (deathrate > 0.009) and (raiserate > 0) then
+                set rsk = 6;
+			elseif (totalcase > 10000) and (deathrate > 0.009) then
+				set rsk = 5;
+			elseif (totalcase > 10000) and (raiserate > 0 ) then
+				set rsk = 4;
+			elseif (deathrate > 0.009) and (raiserate > 0 ) then
+                set rsk = 3;
+			elseif (deathrate > 0.009) then
+                set rsk = 2;
+			elseif (totalcase > 10000) then
+                set rsk = 1;
+			else 
+				set rsk = 0;
+			end if;
+				update Countrylist set Risklevel = rsk where Country = c and Username = Usern;
+        until done
+        end repeat;
+		close cur;
+	end //
+delimiter ; 

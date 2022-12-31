@@ -1,0 +1,1906 @@
+delimiter //
+create procedure Reset()
+begin
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  222 ,Cum_cases =  196404 ,New_deaths =  2 ,Cum_deaths =  7791 
+
+Where Country = " Afghanistan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  138 ,Cum_cases =  330045 ,New_deaths =  0 ,Cum_deaths =  3586 
+
+Where Country = " Albania " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  10 ,Cum_cases =  270561 ,New_deaths =  0 ,Cum_deaths =  6879 
+
+Where Country = " Algeria " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  8235 ,New_deaths =  0 ,Cum_deaths =  34 
+
+Where Country = " American Samoa " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  46113 ,New_deaths =  0 ,Cum_deaths =  155 
+
+Where Country = " Andorra " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  103131 ,New_deaths =  0 ,Cum_deaths =  1917 
+
+Where Country = " Angola " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  3851 ,New_deaths =  0 ,Cum_deaths =  12 
+
+Where Country = " Anguilla " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  8974 ,New_deaths =  0 ,Cum_deaths =  145 
+
+Where Country = " Antigua and Barbuda " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  9697763 ,New_deaths =  0 ,Cum_deaths =  129830 
+
+Where Country = " Argentina " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  439302 ,New_deaths =  0 ,Cum_deaths =  8669 
+
+Where Country = " Armenia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  42970 ,New_deaths =  0 ,Cum_deaths =  228 
+
+Where Country = " Aruba " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  10130701 ,New_deaths =  0 ,Cum_deaths =  14421 
+
+Where Country = " Australia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  5128 ,Cum_cases =  4996101 ,New_deaths =  4 ,Cum_deaths =  20693 
+
+Where Country = " Austria " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  325 ,Cum_cases =  818263 ,New_deaths =  7 ,Cum_deaths =  9864 
+
+Where Country = " Azerbaijan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  15 ,Cum_cases =  37171 ,New_deaths =  0 ,Cum_deaths =  830 
+
+Where Country = " Bahamas " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  318 ,Cum_cases =  674621 ,New_deaths =  0 ,Cum_deaths =  1518 
+
+Where Country = " Bahrain " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  402 ,Cum_cases =  2016145 ,New_deaths =  1 ,Cum_deaths =  29336 
+
+Where Country = " Bangladesh " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  101875 ,New_deaths =  0 ,Cum_deaths =  556 
+
+Where Country = " Barbados " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  994037 ,New_deaths =  0 ,Cum_deaths =  7118 
+
+Where Country = " Belarus " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  2441 ,Cum_cases =  4509922 ,New_deaths =  8 ,Cum_deaths =  32620 
+
+Where Country = " Belgium " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  68473 ,New_deaths =  0 ,Cum_deaths =  680 
+
+Where Country = " Belize " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  27727 ,New_deaths =  0 ,Cum_deaths =  163 
+
+Where Country = " Benin " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  17913 ,New_deaths =  0 ,Cum_deaths =  148 
+
+Where Country = " Bermuda " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  46 ,Cum_cases =  61519 ,New_deaths =  0 ,Cum_deaths =  21 
+
+Where Country = " Bhutan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  177 ,Cum_cases =  1106319 ,New_deaths =  1 ,Cum_deaths =  22218 
+
+Where Country = " Bolivia (Plurinational State of) " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  9362 ,New_deaths =  0 ,Cum_deaths =  31 
+
+Where Country = " Bonaire " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  171 ,Cum_cases =  397467 ,New_deaths =  2 ,Cum_deaths =  16102 
+
+Where Country = " Bosnia and Herzegovina " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  326227 ,New_deaths =  0 ,Cum_deaths =  2780 
+
+Where Country = " Botswana " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  7809 ,Cum_cases =  34533957 ,New_deaths =  45 ,Cum_deaths =  684898 
+
+Where Country = " Brazil " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  7305 ,New_deaths =  0 ,Cum_deaths =  64 
+
+Where Country = " British Virgin Islands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  226237 ,New_deaths =  0 ,Cum_deaths =  131 
+
+Where Country = " Brunei Darussalam " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  654 ,Cum_cases =  1249706 ,New_deaths =  3 ,Cum_deaths =  37658 
+
+Where Country = " Bulgaria " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  21562 ,New_deaths =  0 ,Cum_deaths =  387 
+
+Where Country = " Burkina Faso " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  45 ,Cum_cases =  49927 ,New_deaths =  0 ,Cum_deaths =  15 
+
+Where Country = " Burundi " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  62346 ,New_deaths =  0 ,Cum_deaths =  410 
+
+Where Country = " Cabo Verde " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  16 ,Cum_cases =  137735 ,New_deaths =  0 ,Cum_deaths =  3056 
+
+Where Country = " Cambodia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  121652 ,New_deaths =  0 ,Cum_deaths =  1935 
+
+Where Country = " Cameroon " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  4197636 ,New_deaths =  0 ,Cum_deaths =  44572 
+
+Where Country = " Canada " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  30380 ,New_deaths =  0 ,Cum_deaths =  29 
+
+Where Country = " Cayman Islands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  14909 ,New_deaths =  0 ,Cum_deaths =  113 
+
+Where Country = " Central African Republic " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  7558 ,New_deaths =  0 ,Cum_deaths =  193 
+
+Where Country = " Chad " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1947 ,Cum_cases =  4568495 ,New_deaths =  10 ,Cum_deaths =  60822 
+
+Where Country = " Chile " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  49311 ,Cum_cases =  6926153 ,New_deaths =  27 ,Cum_deaths =  25381 
+
+Where Country = " China " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  6304317 ,New_deaths =  0 ,Cum_deaths =  141708 
+
+Where Country = " Colombia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1 ,Cum_cases =  8471 ,New_deaths =  0 ,Cum_deaths =  160 
+
+Where Country = " Comoros " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  24775 ,New_deaths =  0 ,Cum_deaths =  386 
+
+Where Country = " Congo " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3 ,Cum_cases =  6389 ,New_deaths =  0 ,Cum_deaths =  1 
+
+Where Country = " Cook Islands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  1105792 ,New_deaths =  0 ,Cum_deaths =  8913 
+
+Where Country = " Costa Rica " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  86941 ,New_deaths =  0 ,Cum_deaths =  822 
+
+Where Country = " Côte d’Ivoire " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  496 ,Cum_cases =  1220986 ,New_deaths =  7 ,Cum_deaths =  16813 
+
+Where Country = " Croatia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  9 ,Cum_cases =  1110927 ,New_deaths =  0 ,Cum_deaths =  8530 
+
+Where Country = " Cuba " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  27 ,Cum_cases =  45345 ,New_deaths =  0 ,Cum_deaths =  287 
+
+Where Country = " Curaçao " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  579899 ,New_deaths =  0 ,Cum_deaths =  1173 
+
+Where Country = " Cyprus " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3028 ,Cum_cases =  4066387 ,New_deaths =  7 ,Cum_deaths =  40957 
+
+Where Country = " Czechia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  0 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Democratic People's Republic of Korea " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3 ,Cum_cases =  92819 ,New_deaths =  0 ,Cum_deaths =  1442 
+
+Where Country = " Democratic Republic of the Congo " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  990 ,Cum_cases =  3282837 ,New_deaths =  1 ,Cum_deaths =  6983 
+
+Where Country = " Denmark " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  15690 ,New_deaths =  0 ,Cum_deaths =  189 
+
+Where Country = " Djibouti " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  14852 ,New_deaths =  0 ,Cum_deaths =  68 
+
+Where Country = " Dominica " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  412 ,Cum_cases =  642825 ,New_deaths =  0 ,Cum_deaths =  4384 
+
+Where Country = " Dominican Republic " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  139 ,Cum_cases =  999725 ,New_deaths =  1 ,Cum_deaths =  35884 
+
+Where Country = " Ecuador " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  515348 ,New_deaths =  0 ,Cum_deaths =  24796 
+
+Where Country = " Egypt " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  201785 ,New_deaths =  0 ,Cum_deaths =  4228 
+
+Where Country = " El Salvador " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1 ,Cum_cases =  16894 ,New_deaths =  0 ,Cum_deaths =  183 
+
+Where Country = " Equatorial Guinea " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  10163 ,New_deaths =  0 ,Cum_deaths =  103 
+
+Where Country = " Eritrea " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  198 ,Cum_cases =  599881 ,New_deaths =  0 ,Cum_deaths =  2661 
+
+Where Country = " Estonia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  73374 ,New_deaths =  0 ,Cum_deaths =  1422 
+
+Where Country = " Eswatini " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  14 ,Cum_cases =  493367 ,New_deaths =  0 ,Cum_deaths =  7572 
+
+Where Country = " Ethiopia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  1886 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Falkland Islands (Malvinas) " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  34658 ,New_deaths =  0 ,Cum_deaths =  28 
+
+Where Country = " Faroe Islands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  68206 ,New_deaths =  0 ,Cum_deaths =  878 
+
+Where Country = " Fiji " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1525 ,Cum_cases =  1283253 ,New_deaths =  16 ,Cum_deaths =  6065 
+
+Where Country = " Finland " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  41850 ,Cum_cases =  33732515 ,New_deaths =  49 ,Cum_deaths =  151029 
+
+Where Country = " France " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  93837 ,New_deaths =  0 ,Cum_deaths =  409 
+
+Where Country = " French Guiana " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  76560 ,New_deaths =  0 ,Cum_deaths =  649 
+
+Where Country = " French Polynesia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  48668 ,New_deaths =  0 ,Cum_deaths =  306 
+
+Where Country = " Gabon " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  12415 ,New_deaths =  0 ,Cum_deaths =  372 
+
+Where Country = " Gambia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  1762206 ,New_deaths =  0 ,Cum_deaths =  16900 
+
+Where Country = " Georgia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  51565 ,Cum_cases =  32579029 ,New_deaths =  51 ,Cum_deaths =  150075 
+
+Where Country = " Germany " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  168675 ,New_deaths =  0 ,Cum_deaths =  1459 
+
+Where Country = " Ghana " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  20069 ,New_deaths =  0 ,Cum_deaths =  108 
+
+Where Country = " Gibraltar " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  4839069 ,New_deaths =  0 ,Cum_deaths =  32899 
+
+Where Country = " Greece " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  11971 ,New_deaths =  0 ,Cum_deaths =  21 
+
+Where Country = " Greenland " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  32 ,Cum_cases =  19435 ,New_deaths =  0 ,Cum_deaths =  236 
+
+Where Country = " Grenada " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  191997 ,New_deaths =  0 ,Cum_deaths =  986 
+
+Where Country = " Guadeloupe " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  48669 ,New_deaths =  0 ,Cum_deaths =  394 
+
+Where Country = " Guam " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1507 ,Cum_cases =  1112550 ,New_deaths =  19 ,Cum_deaths =  19684 
+
+Where Country = " Guatemala " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  109 ,Cum_cases =  30992 ,New_deaths =  0 ,Cum_deaths =  62 
+
+Where Country = " Guernsey " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  37829 ,New_deaths =  0 ,Cum_deaths =  450 
+
+Where Country = " Guinea " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  8796 ,New_deaths =  0 ,Cum_deaths =  175 
+
+Where Country = " Guinea-Bissau " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1 ,Cum_cases =  71192 ,New_deaths =  0 ,Cum_deaths =  1279 
+
+Where Country = " Guyana " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  6 ,Cum_cases =  33728 ,New_deaths =  0 ,Cum_deaths =  857 
+
+Where Country = " Haiti " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  26 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Holy See " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  658 ,Cum_cases =  455669 ,New_deaths =  0 ,Cum_deaths =  10989 
+
+Where Country = " Honduras " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  11596 ,Cum_cases =  2070443 ,New_deaths =  42 ,Cum_deaths =  47409 
+
+Where Country = " Hungary " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  48 ,Cum_cases =  205243 ,New_deaths =  0 ,Cum_deaths =  213 
+
+Where Country = " Iceland " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  5108 ,Cum_cases =  44510057 ,New_deaths =  31 ,Cum_deaths =  528216 
+
+Where Country = " India " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  2799 ,Cum_cases =  6400035 ,New_deaths =  21 ,Cum_deaths =  157828 
+
+Where Country = " Indonesia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  618 ,Cum_cases =  7540316 ,New_deaths =  22 ,Cum_deaths =  144221 
+
+Where Country = " Iran (Islamic Republic of) " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  2458509 ,New_deaths =  0 ,Cum_deaths =  25348 
+
+Where Country = " Iraq " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  455 ,Cum_cases =  1660376 ,New_deaths =  0 ,Cum_deaths =  7870 
+
+Where Country = " Ireland " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  38008 ,New_deaths =  0 ,Cum_deaths =  116 
+
+Where Country = " Isle of Man " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1195 ,Cum_cases =  4645789 ,New_deaths =  4 ,Cum_deaths =  11681 
+
+Where Country = " Israel " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  23158 ,Cum_cases =  22077601 ,New_deaths =  93 ,Cum_deaths =  176335 
+
+Where Country = " Italy " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  157 ,Cum_cases =  150909 ,New_deaths =  1 ,Cum_deaths =  3285 
+
+Where Country = " Jamaica " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  78701 ,Cum_cases =  20300387 ,New_deaths =  191 ,Cum_deaths =  42985 
+
+Where Country = " Japan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  56 ,Cum_cases =  59513 ,New_deaths =  0 ,Cum_deaths =  137 
+
+Where Country = " Jersey " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  1742256 ,New_deaths =  0 ,Cum_deaths =  14114 
+
+Where Country = " Jordan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  202 ,Cum_cases =  1481913 ,New_deaths =  0 ,Cum_deaths =  19047 
+
+Where Country = " Kazakhstan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  6 ,Cum_cases =  338307 ,New_deaths =  1 ,Cum_deaths =  5675 
+
+Where Country = " Kenya " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  3430 ,New_deaths =  0 ,Cum_deaths =  13 
+
+Where Country = " Kiribati " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  13 ,Cum_cases =  271902 ,New_deaths =  0 ,Cum_deaths =  3189 
+
+Where Country = " Kosovo[1] " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  657745 ,New_deaths =  0 ,Cum_deaths =  2563 
+
+Where Country = " Kuwait " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  205920 ,New_deaths =  0 ,Cum_deaths =  2991 
+
+Where Country = " Kyrgyzstan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  82 ,Cum_cases =  215064 ,New_deaths =  0 ,Cum_deaths =  757 
+
+Where Country = " Lao People's Democratic Republic " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1731 ,Cum_cases =  910583 ,New_deaths =  4 ,Cum_deaths =  5964 
+
+Where Country = " Latvia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  168 ,Cum_cases =  1212983 ,New_deaths =  1 ,Cum_deaths =  10648 
+
+Where Country = " Lebanon " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  34490 ,New_deaths =  0 ,Cum_deaths =  706 
+
+Where Country = " Lesotho " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  5 ,Cum_cases =  7953 ,New_deaths =  0 ,Cum_deaths =  294 
+
+Where Country = " Liberia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  506889 ,New_deaths =  0 ,Cum_deaths =  6437 
+
+Where Country = " Libya " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  14 ,Cum_cases =  19376 ,New_deaths =  0 ,Cum_deaths =  85 
+
+Where Country = " Liechtenstein " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1747 ,Cum_cases =  1230830 ,New_deaths =  1 ,Cum_deaths =  9297 
+
+Where Country = " Lithuania " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  164 ,Cum_cases =  288329 ,New_deaths =  1 ,Cum_deaths =  1126 
+
+Where Country = " Luxembourg " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  66652 ,New_deaths =  0 ,Cum_deaths =  1410 
+
+Where Country = " Madagascar " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3 ,Cum_cases =  87946 ,New_deaths =  0 ,Cum_deaths =  2680 
+
+Where Country = " Malawi " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1942 ,Cum_cases =  4808896 ,New_deaths =  6 ,Cum_deaths =  36291 
+
+Where Country = " Malaysia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  184966 ,New_deaths =  0 ,Cum_deaths =  308 
+
+Where Country = " Maldives " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  67 ,Cum_cases =  32330 ,New_deaths =  0 ,Cum_deaths =  739 
+
+Where Country = " Mali " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  19 ,Cum_cases =  114323 ,New_deaths =  0 ,Cum_deaths =  803 
+
+Where Country = " Malta " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  15177 ,New_deaths =  0 ,Cum_deaths =  17 
+
+Where Country = " Marshall Islands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  219529 ,New_deaths =  0 ,Cum_deaths =  1036 
+
+Where Country = " Martinique " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1 ,Cum_cases =  62778 ,New_deaths =  0 ,Cum_deaths =  993 
+
+Where Country = " Mauritania " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  199 ,Cum_cases =  261380 ,New_deaths =  0 ,Cum_deaths =  1024 
+
+Where Country = " Mauritius " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  40161 ,New_deaths =  0 ,Cum_deaths =  187 
+
+Where Country = " Mayotte " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  2196 ,Cum_cases =  7078940 ,New_deaths =  11 ,Cum_deaths =  330046 
+
+Where Country = " Mexico " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  470 ,Cum_cases =  9933 ,New_deaths =  0 ,Cum_deaths =  29 
+
+Where Country = " Micronesia (Federated States of) " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  11 ,Cum_cases =  14462 ,New_deaths =  0 ,Cum_deaths =  63 
+
+Where Country = " Monaco " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  358 ,Cum_cases =  981921 ,New_deaths =  0 ,Cum_deaths =  2130 
+
+Where Country = " Mongolia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  201 ,Cum_cases =  277638 ,New_deaths =  0 ,Cum_deaths =  2778 
+
+Where Country = " Montenegro " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  1276 ,New_deaths =  0 ,Cum_deaths =  8 
+
+Where Country = " Montserrat " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  26 ,Cum_cases =  1264690 ,New_deaths =  0 ,Cum_deaths =  16276 
+
+Where Country = " Morocco " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  6 ,Cum_cases =  230180 ,New_deaths =  0 ,Cum_deaths =  2222 
+
+Where Country = " Mozambique " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  384 ,Cum_cases =  617739 ,New_deaths =  1 ,Cum_deaths =  19444 
+
+Where Country = " Myanmar " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  166688 ,New_deaths =  0 ,Cum_deaths =  4077 
+
+Where Country = " Namibia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  4610 ,New_deaths =  0 ,Cum_deaths =  1 
+
+Where Country = " Nauru " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  89 ,Cum_cases =  999046 ,New_deaths =  0 ,Cum_deaths =  12015 
+
+Where Country = " Nepal " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1496 ,Cum_cases =  8401245 ,New_deaths =  3 ,Cum_deaths =  22620 
+
+Where Country = " Netherlands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  91 ,Cum_cases =  74218 ,New_deaths =  0 ,Cum_deaths =  314 
+
+Where Country = " New Caledonia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  1745181 ,New_deaths =  0 ,Cum_deaths =  2955 
+
+Where Country = " New Zealand " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  14990 ,New_deaths =  0 ,Cum_deaths =  244 
+
+Where Country = " Nicaragua " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3 ,Cum_cases =  9388 ,New_deaths =  0 ,Cum_deaths =  312 
+
+Where Country = " Niger " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  264617 ,New_deaths =  0 ,Cum_deaths =  3154 
+
+Where Country = " Nigeria " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  77 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Niue " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  165 ,Cum_cases =  341748 ,New_deaths =  0 ,Cum_deaths =  9515 
+
+Where Country = " North Macedonia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  13154 ,New_deaths =  0 ,Cum_deaths =  40 
+
+Where Country = " Northern Mariana Islands (Commonwealth of the) " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  112 ,Cum_cases =  1461194 ,New_deaths =  0 ,Cum_deaths =  4038 
+
+Where Country = " Norway " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  702591 ,New_deaths =  0 ,Cum_deaths =  5706 
+
+Where Country = " occupied Palestinian territory, including east Jerusalem " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  397993 ,New_deaths =  0 ,Cum_deaths =  4628 
+
+Where Country = " Oman " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  764 ,New_deaths =  0 ,Cum_deaths =  13 
+
+Where Country = " Other " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  99 ,Cum_cases =  1571295 ,New_deaths =  1 ,Cum_deaths =  30600 
+
+Where Country = " Pakistan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  5430 ,New_deaths =  0 ,Cum_deaths =  6 
+
+Where Country = " Palau " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  984234 ,New_deaths =  0 ,Cum_deaths =  8487 
+
+Where Country = " Panama " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  6 ,Cum_cases =  44922 ,New_deaths =  0 ,Cum_deaths =  664 
+
+Where Country = " Papua New Guinea " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  715806 ,New_deaths =  0 ,Cum_deaths =  19530 
+
+Where Country = " Paraguay " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  441 ,Cum_cases =  4126462 ,New_deaths =  26 ,Cum_deaths =  216151 
+
+Where Country = " Peru " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1580 ,Cum_cases =  3909778 ,New_deaths =  40 ,Cum_deaths =  62382 
+
+Where Country = " Philippines " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  4 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Pitcairn Islands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  6127 ,Cum_cases =  6227259 ,New_deaths =  19 ,Cum_deaths =  117298 
+
+Where Country = " Poland " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3649 ,Cum_cases =  5446367 ,New_deaths =  7 ,Cum_deaths =  24943 
+
+Where Country = " Portugal " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  356 ,Cum_cases =  942904 ,New_deaths =  12 ,Cum_deaths =  5046 
+
+Where Country = " Puerto Rico " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  889 ,Cum_cases =  437709 ,New_deaths =  0 ,Cum_deaths =  682 
+
+Where Country = " Qatar " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  93865 ,Cum_cases =  24192999 ,New_deaths =  60 ,Cum_deaths =  27593 
+
+Where Country = " Republic of Korea " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  583183 ,New_deaths =  0 ,Cum_deaths =  11808 
+
+Where Country = " Republic of Moldova " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  472051 ,New_deaths =  0 ,Cum_deaths =  879 
+
+Where Country = " Réunion " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3114 ,Cum_cases =  3244886 ,New_deaths =  18 ,Cum_deaths =  66874 
+
+Where Country = " Romania " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  51735 ,Cum_cases =  20208878 ,New_deaths =  98 ,Cum_deaths =  385628 
+
+Where Country = " Russian Federation " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  132474 ,New_deaths =  0 ,Cum_deaths =  1466 
+
+Where Country = " Rwanda " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3 ,Cum_cases =  726 ,New_deaths =  0 ,Cum_deaths =  2 
+
+Where Country = " Saba " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  5263 ,New_deaths =  0 ,Cum_deaths =  5 
+
+Where Country = " Saint Barthélemy " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  88 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Saint Helena " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  4 ,Cum_cases =  6536 ,New_deaths =  0 ,Cum_deaths =  46 
+
+Where Country = " Saint Kitts and Nevis " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  65 ,Cum_cases =  28959 ,New_deaths =  2 ,Cum_deaths =  393 
+
+Where Country = " Saint Lucia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  11941 ,New_deaths =  0 ,Cum_deaths =  46 
+
+Where Country = " Saint Martin " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  3166 ,New_deaths =  0 ,Cum_deaths =  1 
+
+Where Country = " Saint Pierre and Miquelon " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  9446 ,New_deaths =  0 ,Cum_deaths =  116 
+
+Where Country = " Saint Vincent and the Grenadines " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  15925 ,New_deaths =  0 ,Cum_deaths =  29 
+
+Where Country = " Samoa " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  7 ,Cum_cases =  20542 ,New_deaths =  0 ,Cum_deaths =  118 
+
+Where Country = " San Marino " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  6193 ,New_deaths =  0 ,Cum_deaths =  76 
+
+Where Country = " Sao Tome and Principe " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  125 ,Cum_cases =  814722 ,New_deaths =  3 ,Cum_deaths =  9320 
+
+Where Country = " Saudi Arabia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  6 ,Cum_cases =  88230 ,New_deaths =  0 ,Cum_deaths =  1968 
+
+Where Country = " Senegal " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3172 ,Cum_cases =  2321849 ,New_deaths =  8 ,Cum_deaths =  16837 
+
+Where Country = " Serbia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  46358 ,New_deaths =  0 ,Cum_deaths =  169 
+
+Where Country = " Seychelles " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  7749 ,New_deaths =  0 ,Cum_deaths =  125 
+
+Where Country = " Sierra Leone " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3352 ,Cum_cases =  1864742 ,New_deaths =  0 ,Cum_deaths =  1602 
+
+Where Country = " Singapore " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  1194 ,New_deaths =  0 ,Cum_deaths =  5 
+
+Where Country = " Sint Eustatius " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  8 ,Cum_cases =  10855 ,New_deaths =  0 ,Cum_deaths =  87 
+
+Where Country = " Sint Maarten " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  418 ,Cum_cases =  1838046 ,New_deaths =  4 ,Cum_deaths =  20421 
+
+Where Country = " Slovakia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3521 ,Cum_cases =  1146930 ,New_deaths =  8 ,Cum_deaths =  8220 
+
+Where Country = " Slovenia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  21544 ,New_deaths =  0 ,Cum_deaths =  153 
+
+Where Country = " Solomon Islands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  27197 ,New_deaths =  0 ,Cum_deaths =  1361 
+
+Where Country = " Somalia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  319 ,Cum_cases =  4014724 ,New_deaths =  0 ,Cum_deaths =  102129 
+
+Where Country = " South Africa " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  17780 ,New_deaths =  0 ,Cum_deaths =  138 
+
+Where Country = " South Sudan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  6469 ,Cum_cases =  13374116 ,New_deaths =  149 ,Cum_deaths =  113279 
+
+Where Country = " Spain " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  18 ,Cum_cases =  670519 ,New_deaths =  1 ,Cum_deaths =  16737 
+
+Where Country = " Sri Lanka " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  63280 ,New_deaths =  0 ,Cum_deaths =  4961 
+
+Where Country = " Sudan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  81057 ,New_deaths =  0 ,Cum_deaths =  1384 
+
+Where Country = " Suriname " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  622 ,Cum_cases =  2576481 ,New_deaths =  13 ,Cum_deaths =  20160 
+
+Where Country = " Sweden " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  2369 ,Cum_cases =  4057604 ,New_deaths =  0 ,Cum_deaths =  13560 
+
+Where Country = " Switzerland " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  17 ,Cum_cases =  57189 ,New_deaths =  0 ,Cum_deaths =  3163 
+
+Where Country = " Syrian Arab Republic " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  17786 ,New_deaths =  0 ,Cum_deaths =  125 
+
+Where Country = " Tajikistan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  1321 ,Cum_cases =  4670184 ,New_deaths =  14 ,Cum_deaths =  32578 
+
+Where Country = " Thailand " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  5225 ,Cum_cases =  23579776 ,New_deaths =  56 ,Cum_deaths =  189678 
+
+Where Country = " The United Kingdom " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  5 ,Cum_cases =  23232 ,New_deaths =  0 ,Cum_deaths =  138 
+
+Where Country = " Timor-Leste " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  13 ,Cum_cases =  38670 ,New_deaths =  0 ,Cum_deaths =  284 
+
+Where Country = " Togo " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  0 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Tokelau " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  16182 ,New_deaths =  0 ,Cum_deaths =  12 
+
+Where Country = " Tonga " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  101 ,Cum_cases =  181421 ,New_deaths =  3 ,Cum_deaths =  4174 
+
+Where Country = " Trinidad and Tobago " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  339 ,Cum_cases =  1145163 ,New_deaths =  5 ,Cum_deaths =  29243 
+
+Where Country = " Tunisia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  16852382 ,New_deaths =  0 ,Cum_deaths =  101068 
+
+Where Country = " Türkiye " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  0 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Turkmenistan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  6380 ,New_deaths =  0 ,Cum_deaths =  36 
+
+Where Country = " Turks and Caicos Islands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  20 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Tuvalu " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  10 ,Cum_cases =  169023 ,New_deaths =  0 ,Cum_deaths =  3628 
+
+Where Country = " Uganda " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  5096397 ,New_deaths =  0 ,Cum_deaths =  108955 
+
+Where Country = " Ukraine " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  377 ,Cum_cases =  1020789 ,New_deaths =  0 ,Cum_deaths =  2342 
+
+Where Country = " United Arab Emirates " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  39253 ,New_deaths =  0 ,Cum_deaths =  845 
+
+Where Country = " United Republic of Tanzania " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  57909 ,Cum_cases =  94107849 ,New_deaths =  263 ,Cum_deaths =  1040937 
+
+Where Country = " United States of America " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  59 ,Cum_cases =  22970 ,New_deaths =  1 ,Cum_deaths =  123 
+
+Where Country = " United States Virgin Islands " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  982846 ,New_deaths =  0 ,Cum_deaths =  7462 
+
+Where Country = " Uruguay " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  12 ,Cum_cases =  243993 ,New_deaths =  0 ,Cum_deaths =  1637 
+
+Where Country = " Uzbekistan " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  21 ,Cum_cases =  11935 ,New_deaths =  0 ,Cum_deaths =  14 
+
+Where Country = " Vanuatu " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  21 ,Cum_cases =  543832 ,New_deaths =  0 ,Cum_deaths =  5809 
+
+Where Country = " Venezuela (Bolivarian Republic of) " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  3301 ,Cum_cases =  11444927 ,New_deaths =  2 ,Cum_deaths =  43132 
+
+Where Country = " Viet Nam " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  761 ,New_deaths =  0 ,Cum_deaths =  7 
+
+Where Country = " Wallis and Futuna " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  11932 ,New_deaths =  0 ,Cum_deaths =  2155 
+
+Where Country = " Yemen " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  0 ,Cum_cases =  333229 ,New_deaths =  0 ,Cum_deaths =  4017 
+
+Where Country = " Zambia " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-09-14 00:00:00 ',New_cases =  51 ,Cum_cases =  256939 ,New_deaths =  0 ,Cum_deaths =  5596 
+
+Where Country = " Zimbabwe " and Date = " 2022-10-14 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  105 ,Cum_cases =  200779 ,New_deaths =  0 ,Cum_deaths =  7807 
+
+Where Country = " Afghanistan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  21 ,Cum_cases =  331409 ,New_deaths =  0 ,Cum_deaths =  3591 
+
+Where Country = " Albania " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  6 ,Cum_cases =  270728 ,New_deaths =  0 ,Cum_deaths =  6881 
+
+Where Country = " Algeria " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  8251 ,New_deaths =  0 ,Cum_deaths =  34 
+
+Where Country = " American Samoa " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  91 ,Cum_cases =  46366 ,New_deaths =  0 ,Cum_deaths =  155 
+
+Where Country = " Andorra " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  103131 ,New_deaths =  0 ,Cum_deaths =  1917 
+
+Where Country = " Angola " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  3866 ,New_deaths =  0 ,Cum_deaths =  12 
+
+Where Country = " Anguilla " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  9106 ,New_deaths =  0 ,Cum_deaths =  146 
+
+Where Country = " Antigua and Barbuda " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  9713594 ,New_deaths =  0 ,Cum_deaths =  129958 
+
+Where Country = " Argentina " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  444482 ,New_deaths =  0 ,Cum_deaths =  8700 
+
+Where Country = " Armenia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  44145 ,New_deaths =  0 ,Cum_deaths =  232 
+
+Where Country = " Aruba " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  10301894 ,New_deaths =  0 ,Cum_deaths =  14853 
+
+Where Country = " Australia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  18501 ,Cum_cases =  5292740 ,New_deaths =  11 ,Cum_deaths =  20901 
+
+Where Country = " Austria " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  68 ,Cum_cases =  822346 ,New_deaths =  0 ,Cum_deaths =  9931 
+
+Where Country = " Azerbaijan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  10 ,Cum_cases =  37328 ,New_deaths =  0 ,Cum_deaths =  833 
+
+Where Country = " Bahamas " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  316 ,Cum_cases =  684545 ,New_deaths =  0 ,Cum_deaths =  1521 
+
+Where Country = " Bahrain " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  445 ,Cum_cases =  2031451 ,New_deaths =  1 ,Cum_deaths =  29389 
+
+Where Country = " Bangladesh " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  102609 ,New_deaths =  0 ,Cum_deaths =  560 
+
+Where Country = " Barbados " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  994037 ,New_deaths =  0 ,Cum_deaths =  7118 
+
+Where Country = " Belarus " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  2227 ,Cum_cases =  4586556 ,New_deaths =  6 ,Cum_deaths =  32776 
+
+Where Country = " Belgium " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  25 ,Cum_cases =  68909 ,New_deaths =  0 ,Cum_deaths =  686 
+
+Where Country = " Belize " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  27782 ,New_deaths =  0 ,Cum_deaths =  163 
+
+Where Country = " Benin " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  18220 ,New_deaths =  0 ,Cum_deaths =  148 
+
+Where Country = " Bermuda " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  62247 ,New_deaths =  0 ,Cum_deaths =  21 
+
+Where Country = " Bhutan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  50 ,Cum_cases =  1108818 ,New_deaths =  0 ,Cum_deaths =  22237 
+
+Where Country = " Bolivia (Plurinational State of) " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  9468 ,New_deaths =  0 ,Cum_deaths =  31 
+
+Where Country = " Bonaire " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  66 ,Cum_cases =  399288 ,New_deaths =  2 ,Cum_deaths =  16156 
+
+Where Country = " Bosnia and Herzegovina " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  326324 ,New_deaths =  0 ,Cum_deaths =  2782 
+
+Where Country = " Botswana " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  7350 ,Cum_cases =  34731539 ,New_deaths =  86 ,Cum_deaths =  686963 
+
+Where Country = " Brazil " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  7305 ,New_deaths =  0 ,Cum_deaths =  64 
+
+Where Country = " British Virgin Islands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  231833 ,New_deaths =  0 ,Cum_deaths =  133 
+
+Where Country = " Brunei Darussalam " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  885 ,Cum_cases =  1268035 ,New_deaths =  7 ,Cum_deaths =  37771 
+
+Where Country = " Bulgaria " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  21631 ,New_deaths =  0 ,Cum_deaths =  387 
+
+Where Country = " Burkina Faso " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  45 ,Cum_cases =  50334 ,New_deaths =  0 ,Cum_deaths =  15 
+
+Where Country = " Burundi " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  4 ,Cum_cases =  62394 ,New_deaths =  0 ,Cum_deaths =  410 
+
+Where Country = " Cabo Verde " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  4 ,Cum_cases =  137941 ,New_deaths =  0 ,Cum_deaths =  3056 
+
+Where Country = " Cambodia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  121652 ,New_deaths =  0 ,Cum_deaths =  1935 
+
+Where Country = " Cameroon " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  4270891 ,New_deaths =  0 ,Cum_deaths =  45394 
+
+Where Country = " Canada " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  30809 ,New_deaths =  0 ,Cum_deaths =  34 
+
+Where Country = " Cayman Islands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  24 ,Cum_cases =  15150 ,New_deaths =  0 ,Cum_deaths =  113 
+
+Where Country = " Central African Republic " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  7581 ,New_deaths =  0 ,Cum_deaths =  193 
+
+Where Country = " Chad " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  2359 ,Cum_cases =  4659201 ,New_deaths =  5 ,Cum_deaths =  61350 
+
+Where Country = " Chile " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  54449 ,Cum_cases =  8219630 ,New_deaths =  46 ,Cum_deaths =  27135 
+
+Where Country = " China " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  6308087 ,New_deaths =  0 ,Cum_deaths =  141807 
+
+Where Country = " Colombia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  8481 ,New_deaths =  0 ,Cum_deaths =  160 
+
+Where Country = " Comoros " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  24775 ,New_deaths =  0 ,Cum_deaths =  386 
+
+Where Country = " Congo " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  6389 ,New_deaths =  0 ,Cum_deaths =  1 
+
+Where Country = " Cook Islands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1127602 ,New_deaths =  0 ,Cum_deaths =  8974 
+
+Where Country = " Costa Rica " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  35 ,Cum_cases =  87490 ,New_deaths =  0 ,Cum_deaths =  826 
+
+Where Country = " Côte d’Ivoire " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  940 ,Cum_cases =  1239496 ,New_deaths =  8 ,Cum_deaths =  16994 
+
+Where Country = " Croatia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  4 ,Cum_cases =  1111242 ,New_deaths =  0 ,Cum_deaths =  8530 
+
+Where Country = " Cuba " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  45406 ,New_deaths =  0 ,Cum_deaths =  289 
+
+Where Country = " Curaçao " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  590783 ,New_deaths =  0 ,Cum_deaths =  1187 
+
+Where Country = " Cyprus " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  2186 ,Cum_cases =  4136322 ,New_deaths =  18 ,Cum_deaths =  41354 
+
+Where Country = " Czechia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  0 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Democratic People's Republic of Korea " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  92971 ,New_deaths =  0 ,Cum_deaths =  1444 
+
+Where Country = " Democratic Republic of the Congo " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  1402 ,Cum_cases =  3314946 ,New_deaths =  7 ,Cum_deaths =  7158 
+
+Where Country = " Denmark " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  15690 ,New_deaths =  0 ,Cum_deaths =  189 
+
+Where Country = " Djibouti " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  15760 ,New_deaths =  0 ,Cum_deaths =  74 
+
+Where Country = " Dominica " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  646209 ,New_deaths =  0 ,Cum_deaths =  4384 
+
+Where Country = " Dominican Republic " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  3 ,Cum_cases =  1006535 ,New_deaths =  0 ,Cum_deaths =  35901 
+
+Where Country = " Ecuador " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  515388 ,New_deaths =  0 ,Cum_deaths =  24797 
+
+Where Country = " Egypt " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  201785 ,New_deaths =  0 ,Cum_deaths =  4230 
+
+Where Country = " El Salvador " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  35 ,Cum_cases =  16984 ,New_deaths =  0 ,Cum_deaths =  183 
+
+Where Country = " Equatorial Guinea " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  2 ,Cum_cases =  10182 ,New_deaths =  0 ,Cum_deaths =  103 
+
+Where Country = " Eritrea " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  604552 ,New_deaths =  0 ,Cum_deaths =  2713 
+
+Where Country = " Estonia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  73436 ,New_deaths =  0 ,Cum_deaths =  1422 
+
+Where Country = " Eswatini " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  15 ,Cum_cases =  493723 ,New_deaths =  0 ,Cum_deaths =  7572 
+
+Where Country = " Ethiopia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1930 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Falkland Islands (Malvinas) " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  34658 ,New_deaths =  0 ,Cum_deaths =  28 
+
+Where Country = " Faroe Islands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  68245 ,New_deaths =  0 ,Cum_deaths =  878 
+
+Where Country = " Fiji " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  283 ,Cum_cases =  1323455 ,New_deaths =  0 ,Cum_deaths =  6242 
+
+Where Country = " Finland " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  67948 ,Cum_cases =  34995909 ,New_deaths =  55 ,Cum_deaths =  152095 
+
+Where Country = " France " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  94073 ,New_deaths =  0 ,Cum_deaths =  410 
+
+Where Country = " French Guiana " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  76706 ,New_deaths =  0 ,Cum_deaths =  649 
+
+Where Country = " French Polynesia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  48810 ,New_deaths =  0 ,Cum_deaths =  306 
+
+Where Country = " Gabon " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  12442 ,New_deaths =  0 ,Cum_deaths =  372 
+
+Where Country = " Gambia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1780691 ,New_deaths =  0 ,Cum_deaths =  16900 
+
+Where Country = " Georgia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  121362 ,Cum_cases =  34447753 ,New_deaths =  28 ,Cum_deaths =  151398 
+
+Where Country = " Germany " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  144 ,Cum_cases =  170321 ,New_deaths =  0 ,Cum_deaths =  1460 
+
+Where Country = " Ghana " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  20095 ,New_deaths =  0 ,Cum_deaths =  108 
+
+Where Country = " Gibraltar " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  5026494 ,New_deaths =  0 ,Cum_deaths =  33313 
+
+Where Country = " Greece " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  11971 ,New_deaths =  0 ,Cum_deaths =  21 
+
+Where Country = " Greenland " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  19574 ,New_deaths =  0 ,Cum_deaths =  237 
+
+Where Country = " Grenada " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  193685 ,New_deaths =  0 ,Cum_deaths =  990 
+
+Where Country = " Guadeloupe " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  49009 ,New_deaths =  0 ,Cum_deaths =  401 
+
+Where Country = " Guam " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  560 ,Cum_cases =  1130102 ,New_deaths =  4 ,Cum_deaths =  19840 
+
+Where Country = " Guatemala " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  31836 ,New_deaths =  0 ,Cum_deaths =  63 
+
+Where Country = " Guernsey " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  37999 ,New_deaths =  0 ,Cum_deaths =  456 
+
+Where Country = " Guinea " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  8831 ,New_deaths =  0 ,Cum_deaths =  176 
+
+Where Country = " Guinea-Bissau " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  71383 ,New_deaths =  0 ,Cum_deaths =  1281 
+
+Where Country = " Guyana " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  33761 ,New_deaths =  0 ,Cum_deaths =  857 
+
+Where Country = " Haiti " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  26 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Holy See " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  456664 ,New_deaths =  0 ,Cum_deaths =  10996 
+
+Where Country = " Honduras " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  2120543 ,New_deaths =  0 ,Cum_deaths =  47680 
+
+Where Country = " Hungary " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  205963 ,New_deaths =  0 ,Cum_deaths =  213 
+
+Where Country = " Iceland " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  2786 ,Cum_cases =  44621319 ,New_deaths =  12 ,Cum_deaths =  528847 
+
+Where Country = " India " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  1830 ,Cum_cases =  6452078 ,New_deaths =  14 ,Cum_deaths =  158263 
+
+Where Country = " Indonesia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  357 ,Cum_cases =  7553169 ,New_deaths =  4 ,Cum_deaths =  144502 
+
+Where Country = " Iran (Islamic Republic of) " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  2460844 ,New_deaths =  0 ,Cum_deaths =  25356 
+
+Where Country = " Iraq " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1668301 ,New_deaths =  0 ,Cum_deaths =  7988 
+
+Where Country = " Ireland " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  38008 ,New_deaths =  0 ,Cum_deaths =  116 
+
+Where Country = " Isle of Man " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  790 ,Cum_cases =  4670930 ,New_deaths =  0 ,Cum_deaths =  11712 
+
+Where Country = " Israel " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  47754 ,Cum_cases =  22944496 ,New_deaths =  69 ,Cum_deaths =  177719 
+
+Where Country = " Italy " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  151931 ,New_deaths =  0 ,Cum_deaths =  3320 
+
+Where Country = " Jamaica " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  45690 ,Cum_cases =  21656190 ,New_deaths =  78 ,Cum_deaths =  45693 
+
+Where Country = " Japan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  64 ,Cum_cases =  61043 ,New_deaths =  0 ,Cum_deaths =  141 
+
+Where Country = " Jersey " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1746997 ,New_deaths =  0 ,Cum_deaths =  14122 
+
+Where Country = " Jordan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  63 ,Cum_cases =  1484245 ,New_deaths =  0 ,Cum_deaths =  19052 
+
+Where Country = " Kazakhstan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  10 ,Cum_cases =  338528 ,New_deaths =  0 ,Cum_deaths =  5678 
+
+Where Country = " Kenya " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  3430 ,New_deaths =  0 ,Cum_deaths =  13 
+
+Where Country = " Kiribati " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  8 ,Cum_cases =  272065 ,New_deaths =  0 ,Cum_deaths =  3190 
+
+Where Country = " Kosovo[1] " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  660667 ,New_deaths =  0 ,Cum_deaths =  2564 
+
+Where Country = " Kuwait " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  206250 ,New_deaths =  0 ,Cum_deaths =  2991 
+
+Where Country = " Kyrgyzstan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  19 ,Cum_cases =  216027 ,New_deaths =  0 ,Cum_deaths =  757 
+
+Where Country = " Lao People's Democratic Republic " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  807 ,Cum_cases =  942091 ,New_deaths =  3 ,Cum_deaths =  6026 
+
+Where Country = " Latvia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1216999 ,New_deaths =  0 ,Cum_deaths =  10688 
+
+Where Country = " Lebanon " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  34490 ,New_deaths =  0 ,Cum_deaths =  706 
+
+Where Country = " Lesotho " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  7988 ,New_deaths =  0 ,Cum_deaths =  294 
+
+Where Country = " Liberia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  507012 ,New_deaths =  0 ,Cum_deaths =  6437 
+
+Where Country = " Libya " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  20228 ,New_deaths =  0 ,Cum_deaths =  85 
+
+Where Country = " Liechtenstein " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  730 ,Cum_cases =  1260290 ,New_deaths =  4 ,Cum_deaths =  9353 
+
+Where Country = " Lithuania " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  746 ,Cum_cases =  296941 ,New_deaths =  0 ,Cum_deaths =  1136 
+
+Where Country = " Luxembourg " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  66687 ,New_deaths =  0 ,Cum_deaths =  1410 
+
+Where Country = " Madagascar " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  5 ,Cum_cases =  88055 ,New_deaths =  0 ,Cum_deaths =  2682 
+
+Where Country = " Malawi " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  1628 ,Cum_cases =  4859136 ,New_deaths =  1 ,Cum_deaths =  36407 
+
+Where Country = " Malaysia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  185125 ,New_deaths =  0 ,Cum_deaths =  308 
+
+Where Country = " Maldives " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  1 ,Cum_cases =  32698 ,New_deaths =  0 ,Cum_deaths =  742 
+
+Where Country = " Mali " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  23 ,Cum_cases =  114941 ,New_deaths =  0 ,Cum_deaths =  806 
+
+Where Country = " Malta " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  15375 ,New_deaths =  0 ,Cum_deaths =  17 
+
+Where Country = " Marshall Islands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  222830 ,New_deaths =  0 ,Cum_deaths =  1047 
+
+Where Country = " Martinique " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  24 ,Cum_cases =  62984 ,New_deaths =  0 ,Cum_deaths =  995 
+
+Where Country = " Mauritania " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  263780 ,New_deaths =  0 ,Cum_deaths =  1032 
+
+Where Country = " Mauritius " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  40277 ,New_deaths =  0 ,Cum_deaths =  187 
+
+Where Country = " Mayotte " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  1261 ,Cum_cases =  7098525 ,New_deaths =  25 ,Cum_deaths =  330233 
+
+Where Country = " Mexico " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  21815 ,New_deaths =  0 ,Cum_deaths =  51 
+
+Where Country = " Micronesia (Federated States of) " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  10 ,Cum_cases =  14774 ,New_deaths =  0 ,Cum_deaths =  63 
+
+Where Country = " Monaco " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  62 ,Cum_cases =  983958 ,New_deaths =  0 ,Cum_deaths =  2131 
+
+Where Country = " Mongolia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  102 ,Cum_cases =  281494 ,New_deaths =  0 ,Cum_deaths =  2782 
+
+Where Country = " Montenegro " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1403 ,New_deaths =  0 ,Cum_deaths =  8 
+
+Where Country = " Montserrat " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  23 ,Cum_cases =  1265138 ,New_deaths =  0 ,Cum_deaths =  16278 
+
+Where Country = " Morocco " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  230370 ,New_deaths =  0 ,Cum_deaths =  2224 
+
+Where Country = " Mozambique " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  310 ,Cum_cases =  627638 ,New_deaths =  1 ,Cum_deaths =  19469 
+
+Where Country = " Myanmar " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  3077 ,Cum_cases =  169874 ,New_deaths =  0 ,Cum_deaths =  4080 
+
+Where Country = " Namibia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  4610 ,New_deaths =  0 ,Cum_deaths =  1 
+
+Where Country = " Nauru " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  45 ,Cum_cases =  1000036 ,New_deaths =  0 ,Cum_deaths =  12018 
+
+Where Country = " Nepal " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  3673 ,Cum_cases =  8468690 ,New_deaths =  8 ,Cum_deaths =  22712 
+
+Where Country = " Netherlands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  74346 ,New_deaths =  0 ,Cum_deaths =  314 
+
+Where Country = " New Caledonia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1783035 ,New_deaths =  0 ,Cum_deaths =  3095 
+
+Where Country = " New Zealand " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  15120 ,New_deaths =  0 ,Cum_deaths =  245 
+
+Where Country = " Nicaragua " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  9416 ,New_deaths =  0 ,Cum_deaths =  314 
+
+Where Country = " Niger " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  265816 ,New_deaths =  0 ,Cum_deaths =  3155 
+
+Where Country = " Nigeria " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  83 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Niue " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  28 ,Cum_cases =  343462 ,New_deaths =  0 ,Cum_deaths =  9551 
+
+Where Country = " North Macedonia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  13171 ,New_deaths =  0 ,Cum_deaths =  40 
+
+Where Country = " Northern Mariana Islands (Commonwealth of the) " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  63 ,Cum_cases =  1463213 ,New_deaths =  0 ,Cum_deaths =  4153 
+
+Where Country = " Norway " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  702804 ,New_deaths =  0 ,Cum_deaths =  5707 
+
+Where Country = " occupied Palestinian territory, including east Jerusalem " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  398424 ,New_deaths =  0 ,Cum_deaths =  4628 
+
+Where Country = " Oman " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  764 ,New_deaths =  0 ,Cum_deaths =  13 
+
+Where Country = " Other " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1572972 ,New_deaths =  0 ,Cum_deaths =  30623 
+
+Where Country = " Pakistan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  5490 ,New_deaths =  0 ,Cum_deaths =  7 
+
+Where Country = " Palau " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  988280 ,New_deaths =  0 ,Cum_deaths =  8505 
+
+Where Country = " Panama " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  12 ,Cum_cases =  45182 ,New_deaths =  0 ,Cum_deaths =  668 
+
+Where Country = " Papua New Guinea " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  717039 ,New_deaths =  0 ,Cum_deaths =  19595 
+
+Where Country = " Paraguay " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  388 ,Cum_cases =  4149079 ,New_deaths =  31 ,Cum_deaths =  216819 
+
+Where Country = " Peru " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  1533 ,Cum_cases =  3973001 ,New_deaths =  34 ,Cum_deaths =  63363 
+
+Where Country = " Philippines " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  4 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Pitcairn Islands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  1908 ,Cum_cases =  6323108 ,New_deaths =  24 ,Cum_deaths =  117847 
+
+Where Country = " Poland " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  5505654 ,New_deaths =  0 ,Cum_deaths =  25106 
+
+Where Country = " Portugal " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  619 ,Cum_cases =  964435 ,New_deaths =  4 ,Cum_deaths =  5193 
+
+Where Country = " Puerto Rico " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  676 ,Cum_cases =  459798 ,New_deaths =  0 ,Cum_deaths =  682 
+
+Where Country = " Qatar " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  26936 ,Cum_cases =  25052656 ,New_deaths =  25 ,Cum_deaths =  28748 
+
+Where Country = " Republic of Korea " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  591912 ,New_deaths =  0 ,Cum_deaths =  11870 
+
+Where Country = " Republic of Moldova " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  476927 ,New_deaths =  0 ,Cum_deaths =  894 
+
+Where Country = " Réunion " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  811 ,Cum_cases =  3277831 ,New_deaths =  6 ,Cum_deaths =  67103 
+
+Where Country = " Romania " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  15477 ,Cum_cases =  21264080 ,New_deaths =  101 ,Cum_deaths =  388610 
+
+Where Country = " Russian Federation " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  132517 ,New_deaths =  0 ,Cum_deaths =  1467 
+
+Where Country = " Rwanda " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  731 ,New_deaths =  0 ,Cum_deaths =  2 
+
+Where Country = " Saba " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  5302 ,New_deaths =  0 ,Cum_deaths =  5 
+
+Where Country = " Saint Barthélemy " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1973 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Saint Helena " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  6546 ,New_deaths =  0 ,Cum_deaths =  46 
+
+Where Country = " Saint Kitts and Nevis " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  29550 ,New_deaths =  0 ,Cum_deaths =  405 
+
+Where Country = " Saint Lucia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  11992 ,New_deaths =  0 ,Cum_deaths =  46 
+
+Where Country = " Saint Martin " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  3231 ,New_deaths =  0 ,Cum_deaths =  1 
+
+Where Country = " Saint Pierre and Miquelon " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  9450 ,New_deaths =  0 ,Cum_deaths =  116 
+
+Where Country = " Saint Vincent and the Grenadines " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  15942 ,New_deaths =  0 ,Cum_deaths =  29 
+
+Where Country = " Samoa " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  23 ,Cum_cases =  21203 ,New_deaths =  0 ,Cum_deaths =  118 
+
+Where Country = " San Marino " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  6252 ,New_deaths =  0 ,Cum_deaths =  77 
+
+Where Country = " Sao Tome and Principe " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  203 ,Cum_cases =  818236 ,New_deaths =  2 ,Cum_deaths =  9374 
+
+Where Country = " Saudi Arabia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  8 ,Cum_cases =  88555 ,New_deaths =  0 ,Cum_deaths =  1968 
+
+Where Country = " Senegal " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  1731 ,Cum_cases =  2383411 ,New_deaths =  9 ,Cum_deaths =  17108 
+
+Where Country = " Serbia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  47141 ,New_deaths =  1 ,Cum_deaths =  170 
+
+Where Country = " Seychelles " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  7752 ,New_deaths =  0 ,Cum_deaths =  125 
+
+Where Country = " Sierra Leone " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  9611 ,Cum_cases =  1979259 ,New_deaths =  2 ,Cum_deaths =  1636 
+
+Where Country = " Singapore " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1196 ,New_deaths =  0 ,Cum_deaths =  5 
+
+Where Country = " Sint Eustatius " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  10876 ,New_deaths =  0 ,Cum_deaths =  87 
+
+Where Country = " Sint Maarten " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  430 ,Cum_cases =  1848667 ,New_deaths =  5 ,Cum_deaths =  20496 
+
+Where Country = " Slovakia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  2268 ,Cum_cases =  1209350 ,New_deaths =  1 ,Cum_deaths =  8336 
+
+Where Country = " Slovenia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  21544 ,New_deaths =  0 ,Cum_deaths =  153 
+
+Where Country = " Solomon Islands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  27223 ,New_deaths =  0 ,Cum_deaths =  1361 
+
+Where Country = " Somalia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  361 ,Cum_cases =  4022107 ,New_deaths =  52 ,Cum_deaths =  102246 
+
+Where Country = " South Africa " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  17780 ,New_deaths =  0 ,Cum_deaths =  138 
+
+Where Country = " South Sudan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  13441941 ,New_deaths =  0 ,Cum_deaths =  114468 
+
+Where Country = " Spain " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  3 ,Cum_cases =  670899 ,New_deaths =  0 ,Cum_deaths =  16768 
+
+Where Country = " Sri Lanka " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  63375 ,New_deaths =  0 ,Cum_deaths =  4963 
+
+Where Country = " Sudan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  17 ,Cum_cases =  81131 ,New_deaths =  0 ,Cum_deaths =  1385 
+
+Where Country = " Suriname " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  743 ,Cum_cases =  2604262 ,New_deaths =  0 ,Cum_deaths =  20438 
+
+Where Country = " Sweden " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  4144457 ,New_deaths =  0 ,Cum_deaths =  13591 
+
+Where Country = " Switzerland " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  3 ,Cum_cases =  57329 ,New_deaths =  0 ,Cum_deaths =  3163 
+
+Where Country = " Syrian Arab Republic " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  17786 ,New_deaths =  0 ,Cum_deaths =  125 
+
+Where Country = " Tajikistan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  4685047 ,New_deaths =  0 ,Cum_deaths =  32829 
+
+Where Country = " Thailand " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  7984 ,Cum_cases =  23793648 ,New_deaths =  1 ,Cum_deaths =  191681 
+
+Where Country = " The United Kingdom " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  23275 ,New_deaths =  0 ,Cum_deaths =  138 
+
+Where Country = " Timor-Leste " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  11 ,Cum_cases =  39230 ,New_deaths =  0 ,Cum_deaths =  287 
+
+Where Country = " Togo " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  0 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Tokelau " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  16182 ,New_deaths =  0 ,Cum_deaths =  12 
+
+Where Country = " Tonga " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  437 ,Cum_cases =  184261 ,New_deaths =  11 ,Cum_deaths =  4235 
+
+Where Country = " Trinidad and Tobago " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  1145930 ,New_deaths =  0 ,Cum_deaths =  29254 
+
+Where Country = " Tunisia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  16919638 ,New_deaths =  0 ,Cum_deaths =  101203 
+
+Where Country = " Türkiye " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  0 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Turkmenistan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  6380 ,New_deaths =  0 ,Cum_deaths =  36 
+
+Where Country = " Turks and Caicos Islands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  20 ,New_deaths =  0 ,Cum_deaths =  0 
+
+Where Country = " Tuvalu " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  169274 ,New_deaths =  0 ,Cum_deaths =  3630 
+
+Where Country = " Uganda " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  5256432 ,New_deaths =  0 ,Cum_deaths =  109616 
+
+Where Country = " Ukraine " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  337 ,Cum_cases =  1031837 ,New_deaths =  0 ,Cum_deaths =  2346 
+
+Where Country = " United Arab Emirates " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  39679 ,New_deaths =  0 ,Cum_deaths =  845 
+
+Where Country = " United Republic of Tanzania " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  46808 ,Cum_cases =  95472135 ,New_deaths =  465 ,Cum_deaths =  1052114 
+
+Where Country = " United States of America " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  26 ,Cum_cases =  23233 ,New_deaths =  0 ,Cum_deaths =  123 
+
+Where Country = " United States Virgin Islands " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  987563 ,New_deaths =  0 ,Cum_deaths =  7501 
+
+Where Country = " Uruguay " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  11 ,Cum_cases =  244361 ,New_deaths =  0 ,Cum_deaths =  1637 
+
+Where Country = " Uzbekistan " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  11976 ,New_deaths =  0 ,Cum_deaths =  14 
+
+Where Country = " Vanuatu " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  47 ,Cum_cases =  545013 ,New_deaths =  0 ,Cum_deaths =  5818 
+
+Where Country = " Venezuela (Bolivarian Republic of) " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  1196 ,Cum_cases =  11489881 ,New_deaths =  1 ,Cum_deaths =  43155 
+
+Where Country = " Viet Nam " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  761 ,New_deaths =  0 ,Cum_deaths =  7 
+
+Where Country = " Wallis and Futuna " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  11939 ,New_deaths =  0 ,Cum_deaths =  2158 
+
+Where Country = " Yemen " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  0 ,Cum_cases =  333624 ,New_deaths =  0 ,Cum_deaths =  4017 
+
+Where Country = " Zambia " and Date = " 2022-10-13 00:00:00 ";
+
+UPDATE Dailydata set Date = ' 2022-10-13 00:00:00 ',New_cases =  29 ,Cum_cases =  257827 ,New_deaths =  1 ,Cum_deaths =  5605 
+
+Where Country = " Zimbabwe " and Date = " 2022-10-13 00:00:00 ";
+	end //
+delimiter ; 
+call reset();
+select * from Dailydata where Country = " China ";
+SELECT d.Country, avg(d.new_cases) AS avg_num FROM Dailydata d NATURAL JOIN City c where d.Date >= "2022-10-01 00:00:00" GROUP BY d.Country ORDER BY avg_num DESC LIMIT 15;
+call UpdateAll();
+
+SELECT Country, New_cases, New_deaths from HighriskCountries Order by New_cases limit 15

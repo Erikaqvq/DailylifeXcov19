@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>User Settings</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/stylesheets/home.css">
+   <link rel="stylesheet" href="/stylesheets/style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+ </head>
+ <div class="topnav">
+    <m><img src="/images/logo.png" alt="a" width = "45" height="50"></m>
+    <hello name = "Username" value = <%= name %>>Hello, <%= name %></hello>
+    <form action = "/" method="get">
+        <a href="/">Home</a>
+    </form>
+    <bunnie>Bunnie Help 0.0</bunnie>
+</div>
+
+ <body>
+ <div class = "contentsetting">
+    <div class = "list">
+        <div class = "select">
+            <select name = "" id = "">
+            <option value = "Choose">Choose the Country you want to know</option>
+            <option value = "Choose">Choose the Country you want to know</option>
+            <option value = "Choose">Choose the Country you want to know</option>
+            <option value = "Choose">Choose the Country you want to know</option>
+            </select> 
+            
+            
+                <form action = "/signup/settings-deleting" method = "post">
+                <div class = "search">
+                <label for = "Country">Delete a Country from list</label>
+                <input type = "text" name = "Country">
+                <input type = "text" class = "hide" name = "Username" value = <%= name %>
+                </div>
+                <div>
+                <button type = "submit">delete</button>
+                </div>
+                </form>
+            
+                <form action = "/signup/settings-adding" method = "post">
+                <div class = "search">
+                <label for = "Country">Add a Country to list</label>
+                <input type = "text" name = "Country">
+                <input type = "text" class = "hide" name = "Username" value = <%= name %>
+                </div>
+                <div>
+                <button type = "submit">Add</button>
+                </div>
+                </form>
+            <div><%= msg %></div>
+
+            
+                <form action = "/signup/settings-changing" method = "post">
+                <div class = "search">
+                <label for = "OldCountry">Old</label>
+                <input type = "text" name = "OldCountry">
+                <label for = "NewCountry">New</label>
+                <input type = "text" name = "NewCountry">
+                <input type = "text" class = "hide" name = "Username" value = <%= name %>
+                </div>
+                <div>
+                <button type = "submit">Change</button>
+                </div>
+                </form>
+
+                <form action = "/Login" method = "get">
+                <div>
+                <button type = "submit">Done</button>
+                </div>
+                </form>
+        </div>
+    </div>
+    <div class = "list">
+        
+        <form action = "/signup/settings-psw" method = "post">
+        <div class = "select">
+         <div class="search">
+            <label for="OldPassword">Old Password____:</label>
+            <input type = "password" name = "OldPassword">
+         </div>
+         <div class="search">
+            <label for="NewPassword">New Password___:</label>
+            <input type = "password" name = "NewPassword">
+         </div>
+         <div class="search">
+            <label for="NewPassword2">Confirm Password:</label>
+            <input type = "password" name = "NewPassword2">
+         </div>
+         <input type = "text" class = "hide" name = "Username" value = <%= name %>
+         <div>
+            <button type = "submit">change</button>
+         </div>
+        </form>
+         <form action = "/Login" method = "get">
+            <div>
+                <button type = "submit">Done</button>
+            </div>
+         </form>
+        </div>
+    </div>
+</div>
+
+
+ </body>
+</html>
